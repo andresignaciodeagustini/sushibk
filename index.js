@@ -6,7 +6,7 @@ const path = require('path');
 const fulfillmentRoutes = require('./routes/fulfillmentRoutes');
 const orderRoutes = require('./routes/orderRoutes');
 
-const credentialsPath = path.join(__dirname, 'credentials', 'credentials.json');
+const credentialsPath = path.join(__dirname, 'credentials.json');
 
 const fs = require('fs');
 if (!fs.existsSync(credentialsPath)) {
